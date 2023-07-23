@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DetikCom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+  </head>
+
+  <body>
+    <!--Start Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 navbarcolor fixed-top">
+      <div class="container">
+        <a href="index.html">
+          <img class="navbar-brand" src="assets/image/Navbar/Navbar Brand.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-3mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light mt-3 ms-3" aria-current="page"><strong>About</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light mt-3 ms-3" aria-current="page"><strong>Mechanism</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light mt-3 ms-3" aria-current="page"><strong>Latest Update</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-1" aria-current="page">
+                <button class="btn btn-light rounded-5 mt-2 px-4 navbartext" style="font-size: 0.9rem"><strong>Register</strong></button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start headersection -->
+    <div class="headersection">
+      <div class="headertitle">
+        <p class="text-center headertext mt-5">Registrasi</p>
+      </div>
+    </div>
+    <!-- end headersection -->
+    <!-- form start -->
+    <div class="form-container">
+      <div class="container registration-form">
+        <div class="form-group">
+              <input type="text" class="form-control border-0 mb-3 colorform" id="namaPerusahaan" placeholder="Nama Perusahaan*"  required />
+          </div>
+          
+          <div class="form-group">
+            <input type="email" class="form-control border-0 mb-3 colorform" id="email" placeholder="Email*" required />
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control border-0 mb-3 colorform" id="nomorTelepon" placeholder="Nomor Telepon*" required />
+            <p class="form1">Isi hanya angka</p>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control border-0 mb-3 colorform" id="tentangPerusahaan" maxlength="200" rows="4" placeholder="Tentang Perusahaan (Max. 200 character)*" required></textarea>
+          </div>
+        <div class="form-group">
+  <div class="row">
+    <div class="col-md-6 px-5">
+        <label for="uploadLogo">Upload file logo*</label>
+        <div class="custom-file-container">
+          <input type="file" class="custom-file-input" id="uploadLogo" accept=".png, .jpg, .jpeg" required />
+          <label class="custom-file-label" for="uploadLogo">Choose File</label>
+        </div>
+      </div>
+      
+    <div class="col-md-6 text-right">
+  
+      <p class="my-5" >1. Format file: .png, .jpg, .jpeg <br>
+        2. Maksimal ukuran file 200KB <br>
+        3. Hindari penggunaan logo berwarna putih <br>
+        4. Minimal lebar 300px</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="form-group">
+    <div class="row">
+      <div class="col-md-9">
+        <input type="text" class="form-control border-0 mb-3 colorform" id="profilPerusahaan" placeholder="Profil Perusahaan atau Deck (opsional)" required />
+      </div>
+      <div class="col-md-3 text-right">
+        <label class="custom-file-upload">
+          <input type="file" class="form-control-file" id="uploadProfil" accept=".pdf, .doc, .docx" />
+          Upload File
+        </label>
+      </div>
+      <p class="form1">Format file .pdf , maksimal size 20mb</p>
+    </div>
+  </div>
+  
+         
+         
+         
+          <div class="form-group">
+            <input type="url" class="form-control border-0 mb-3 colorform" id="linkWebsite" placeholder="Link website*" />
+            <p class="form1">Website, Sosial Media, dll. Sertakan protokol URL (https:// atau http://).</p>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="setujuSyarat" required />
+            <label class="form-check-label " for="setujuSyarat">Dengan menekan tombol "Daftar", Saya menyetujui syarat dan ketentuan yang berlaku </label>
+          </div>
+          <div class="text-center">
+          <button type="submit" class="register  mt-2">Register</button>
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- end form  -->
+    <!-- footer start -->
+    <footer class="page-footer text-light footer">
+      <div class="container py-4">
+        <div class="row g-4">
+          <div class="col-md">
+            <img src="assets/image/Navbar/Navbar Brand.png" />
+
+            <p class="mt-4 footer1">
+              Detikfinance memberikan ruang kepada para startup di Indonesia untuk menunjukkan, serta <br />mempromosikan brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor
+              <span class="logofooter">
+                <span class="px-3"><img src="assets/image/footer/twitter.png" alt="" /></span>
+                <span class="px-3"><img src="assets/image/footer/instagram.png" alt="" /></span>
+                <span class="px-3"><img src="assets/image/footer/facebook.png" alt="" /></span>
+              </span>
+            </p>
+          </div>
+          <hr class="mt-1 border-3" />
+          <p class="mt-2 mb-0 footer3">&copy; 2023 Detikcom. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      function validateForm() {
+        var tentangPerusahaan = document.getElementById("tentangPerusahaan").value;
+        if (tentangPerusahaan.length > 200) {
+          alert("Tentang Perusahaan tidak boleh lebih dari 200 karakter.");
+          return false;
+        }
+
+        var logoFile = document.getElementById("uploadLogo").files[0];
+        if (logoFile) {
+          var allowedExtensions = ["png", "jpg", "jpeg"];
+          var fileSizeLimit = 200 * 1024;
+
+          var fileExtension = logoFile.name.split(".").pop().toLowerCase();
+          if (!allowedExtensions.includes(fileExtension)) {
+            alert("Format file logo tidak diizinkan. Gunakan file PNG, JPG, atau JPEG.");
+            return false;
+          }
+
+          if (logoFile.size > fileSizeLimit) {
+            alert("Ukuran file logo melebihi batas maksimum (200 KB).");
+            return false;
+          }
+
+          var logoImage = new Image();
+          logoImage.src = URL.createObjectURL(logoFile);
+          logoImage.onload = function () {
+            if (logoImage.width < 300) {
+              alert("Lebar logo minimal harus 300px.");
+              return false;
+            }
+
+            alert("Registrasi berhasil!");
+            return true;
+          };
+
+          logoImage.onerror = function () {
+            alert("Logo berwarna putih tidak diizinkan.");
+            return false;
+          };
+        }
+
+        alert("Registrasi berhasil!");
+        return true;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200&display=swap");
+
+/* index.html */
+.navbarcolor {
+  background: #007cbd;
+}
+.navbartext {
+  color: #007cbd;
+}
+.herosection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(/assets/image/Background\ Hero\ Section.png);
+  max-width: 100%;
+  height: 1024px;
+}
+.centertext1 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+.centertext2 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px; /* 75% */
+}
+.centertext3 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.about1 {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about2 {
+  color: #1b1e28;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px; /* 135.714% */
+}
+.about3 {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 135.714% */
+}
+.mekanismeSection {
+  background-image: url(/assets/image/Background\ Mekanisme\ Section.png);
+}
+
+.mekanisme1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 41.667% */
+  margin-left: 18%;
+  margin-top: 147px;
+}
+
+.mekanisme2 {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px; /* 105.556% */
+}
+.mekanisme3 {
+  color: #007cbd;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px; /* 135.714% */
+}
+.mekanisme4 {
+  color: #1b1e28;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+}
+
+.card {
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 10px rgb(240, 240, 240);
+}
+
+.logosection {
+  background: #f4fbff;
+}
+.logo2 {
+  color: #007cbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.logo3 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.image-row {
+  animation: moveLeft 15s linear infinite;
+}
+
+.logo-image {
+  width: 100px;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.aggregator0 {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 62.5% */
+}
+.image-container {
+  overflow: hidden;
+}
+
+.zoom-image {
+  transition: transform 0.3s ease;
+}
+
+.card1:hover .zoom-image {
+  transform: scale(1.1);
+}
+.aggregator1 {
+  transition: color 0.3s ease;
+  color: #1b1e28;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.aggregator2 {
+  color: #7a7b7e;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card1:hover .aggregator1 {
+  color: #007cbd;
+}
+
+.footer {
+  background: #007cbd;
+}
+.logofooter {
+  padding-left: 80%;
+}
+.footer1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer3 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 14px */
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+  .centertext1 {
+    padding-left: 30px;
+    text-align: left;
+  }
+  .centertext2 {
+    text-align: left;
+    font-size: 43px;
+    padding-left: 30px;
+  }
+  .centertext3 {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 17px;
+  }
+  .bg-info {
+    text-align: left;
+  }
+  .responsive {
+    float: left;
+    margin-left: 30px;
+  }
+
+  .mekanisme1 {
+    margin-left: 10px;
+  }
+  .responsiverow [class*="col-"] {
+    flex-basis: 5%;
+  }
+}
+
+/* register.html */
+
+.headertext {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.registration-form {
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.headersection {
+  height: 400px;
+  max-width: 100%;
+  background-image: url(/assets/image/Background\ Header\ Title.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.headertitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-container {
+  position: relative;
+  top: -110px;
+  z-index: 2;
+  width: 60%;
+  margin: 0 auto;
+}
+.colorform {
+  border-radius: 8px;
+  background-color: rgba(245, 240, 240, 0.615);
+}
+
+.custom-file-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(245, 240, 240, 0.615);
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-file-input {
+  display: none;
+}
+
+.custom-file-label {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.custom-file-container:hover {
+  border-color: #aaa;
+}
+
+.custom-file-container:hover .custom-file-label {
+  color: #aaa;
+}
+
+.custom-file-input:not(:valid) + .custom-file-label {
+  display: none;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #007cbd;
+  color: #fff;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+.form1 {
+  color: var(--gray-3, #828282);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.register {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #007cbd;
+  color: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
+}
